@@ -1,0 +1,97 @@
+
+/* Improvement: Added a purple background colour to make the webpage more visually appealing */
+body {
+    background-color: #6a0dad;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Improvement: Used Flexbox in the header to align the title and navigation more clearly */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Improvement: Displayed navigation links horizontally for a cleaner layout */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Improvement: Styled navigation links to improve readability */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Improvement: Positioned the shopping cart icon on the right side for easier access */
+.cart {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* Improvement: Set a clear size for the shopping cart icon */
+.cart img {
+    width: 40px;
+    height: auto;
+}
+
+/* Improvement: Added spacing around the main page content */
+main {
+    padding: 20px;
+}
+
+/* Improvement: Limited the section width and centred it for better readability */
+section {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Improvement: Used Flexbox to align images and text side by side in each article */
+article {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Improvement: Set a consistent image size and added rounded corners */
+article img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Improvement: Allowed the text area to take up the remaining space neatly */
+article div {
+    flex: 1;
+}
+
+/* Improvement: Styled buttons to make them more noticeable and user-friendly */
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Improvement: Centred the footer text for a neater appearance */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}

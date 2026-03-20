@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wondering Photographer</title>
+
+    <!-- Improvement: Linked an external CSS file to improve structure and keep styling separate from HTML -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>The Wondering Photographer</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Improvement: Added a shopping cart icon to make navigation easier for users -->
+    <div class="cart">
+        <a href="checkout.html">
+            <img src="shopping.svg" alt="Shopping cart">
+        </a>
+    </div>
+
+    <main>
+        <section>
+            <h2>Photo Gallery</h2>
+
+            <!-- Improvement: Wrapped the text and button inside a div to improve layout and align content neatly next to the image -->
+            <article>
+                <img src="OceanPhoto.jpg" alt="Cold blue water on the coast of Greenland during a family trip">
+                <div>
+                    <p>This was from a fabulous trip to the coast of Greenland with my family. The water was lovely - but very cold!</p>
+                    <button type="button">Add to basket</button>
+                </div>
+            </article>
+
+            <!-- Improvement: Same structure used for consistency across all gallery items -->
+            <article>
+                <img src="BridgePhoto.jpg" alt="View of the Golden Gate Bridge">
+                <div>
+                    <p>A picture of the Golden Gate Bridge. New York! New York!</p>
+                    <button type="button">Add to basket</button>
+                </div>
+            </article>
+
+            <article>
+                <img src="ValleyPhoto.jpg" alt="River valley in Greenland where a glacier used to be">
+                <div>
+                    <p>Another great photo from Greenland. It's a river valley where a glacier used to be.</p>
+                    <button type="button">Add to basket</button>
+                </div>
+            </article>
+
+            <article>
+                <img src="WaterfallPhoto.jpg" alt="Waterfall in a peaceful natural setting">
+                <div>
+                    <p>The waterfall made such a lovely sound. I could have fallen asleep!</p>
+                    <button type="button">Add to basket</button>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright The Wondering Photographer 2018.</p>
+    </footer>
+
+</body>
+</html>
+
